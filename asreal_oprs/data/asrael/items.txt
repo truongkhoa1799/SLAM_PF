@@ -1,0 +1,165 @@
+################################################################################
+# kitchenware
+Fridge:
+  - FridgeShelf1
+  - FridgeShelf2
+  - FridgeDoor 
+
+Microwave:
+  - MicrowaveDoor
+  - MicrowaveBase
+
+Stove
+
+OvenDoor 
+OvenGrill
+
+Dishwasher:
+  - DishwasherDoor
+  - DishwasherBase
+
+################################################################################
+# cutlery
+Knife1 Knife2 Knife3 Knife4
+Spoon1 Spoon2 Spoon3 Spoon4
+Fork1 Fork2 Fork3 Fork4
+
+################################################################################
+# food
+Ham1 Ham2 Ham3 Ham4
+Cheese1 Cheese2 Cheese3 Cheese4
+Bread1 Bread2 Bread3 Bread4 Bread5 Bread6 Bread7 Bread8
+Tomatoes1 Tomatoes2 Tomatoes3 Tomatoes4 
+
+################################################################################
+# crockery
+GreenPlate1 GreenPlate2 GreenPlate3 GreenPlate4
+BrownPlate1 BrownPlate2 BrownPlate3 BrownPlate4
+BeigePlate1 BeigePlate2 BeigePlate3 BeigePlate4
+
+################################################################################
+# utils
+Placemat1 Placemat2 Placemat3 Placemat4
+WoodenBowl
+
+################################################################################
+# cookware
+Pan
+
+SmallPot 
+LargePot
+
+################################################################################
+# kitchen furniture
+table
+
+TallCabinet1:
+  - TC1_Shelf1
+  - TC1_Shelf2
+  - TC1_Shelf3
+  - TC1_Shelf4
+  - TC1_Shelf5
+  - TC1_Shelf6
+
+UpperCabinet1:
+  - UC1_Shelf1
+  - UC1_Shelf2
+
+UpperCabinet2:
+  - UC2_Door1
+  - UC2_Shelf1
+  - UC2_Shelf2
+
+UpperCabinet3:
+  - UC3_Door1
+  - UC3_Door2
+  - UC3_Shelf1
+  - UC3_Shelf2
+  
+UpperCabinet4:
+  - UC4_Door1
+  - UC4_Shelf1
+  - UC4_Shelf2
+  - UC4_Shelf3
+  - UC4_Shelf4
+
+UpperCabinet5:
+  - UC5_Shelf1
+  - UC5_Shelf2
+  - UC5_Shelf3
+  - UC5_Shelf4
+
+UpperCabinet6:
+  - UC6_Door1
+  - UC6_Door2
+  - UC6_Shelf1
+  - UC6_Shelf2
+  - UC6_Shelf3
+  - UC6_Shelf4
+
+BaseCabinet2:
+  - BC2_Drawer1
+  - BC2_Drawer2
+
+BaseCabinet3:
+  - BC3_Shelf1
+  - BC3_Shelf2
+  - BC3_Shelf3
+  - BC3_Shelf4
+
+BaseCabinet4:
+  - BC4_Door1
+  - BC4_Shelf1
+  - BC4_Shelf2
+  - BC4_Shelf3
+  - BC4_Shelf4
+
+BaseCabinet5:
+  - BC5_Door1
+  - BC5_Door2
+  - BC5_Shelf1
+  - BC5_Shelf2
+  - BC5_Shelf3
+  - BC5_Shelf4
+  
+BaseCabinet6:
+  - BC6_Drawer1
+  - BC6_Drawer2
+  - BC6_Drawer3
+  - BC6_Drawer4
+  
+BaseCabinet7:
+  - BC7_Door1
+  - BC7_Door2
+  - BC7_Drawer1
+  - BC7_Shelf1
+  - BC7_Shelf2
+  - BC7_Shelf3
+
+BaseCabinet8:
+  - BC8_Drawer1
+  - BC8_Drawer2
+  - BC8_Drawer3
+  - BC8_Drawer4
+  
+BaseCabinet9:
+  - BC9_Drawer1
+  - BC9_Drawer2
+  - BC9_Drawer3
+  - BC9_Drawer4
+  - BC9_Drawer5
+  
+BaseCabinet10:
+  - BC10_Drawer1
+  - BC10_Drawer2
+  - BC10_Drawer3
+  - BC10_Drawer4
+  - BC10_Drawer5
+
+
+  
+
+
+  
+
+  

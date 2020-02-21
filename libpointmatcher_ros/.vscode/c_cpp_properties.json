@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/khoa1799/catkin_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/khoa1799/catkin_ws/src/SLAM/asreal_oprs/include/**",
+                "/home/khoa1799/catkin_ws/src/SLAM/g2o_based_mapping/include/**",
+                "/home/khoa1799/catkin_ws/src/SLAM/laser_based_localization_pf/include/**",
+                "/home/khoa1799/catkin_ws/src/SLAM/libpointmatcher_ros/include/**",
+                "/home/khoa1799/catkin_ws/src/SLAM/lpn_global_path_planner/include/**",
+                "/home/khoa1799/catkin_ws/src/SLAM/occupancy_grid_utils/include/**",
+                "/home/khoa1799/catkin_ws/src/SLAM/rrt_global_path_planner/include/**",
+                "/home/khoa1799/catkin_ws/src/SLAM/stage_utils/include/**",
+                "/home/khoa1799/catkin_ws/src/SLAM/tf2_bullet/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

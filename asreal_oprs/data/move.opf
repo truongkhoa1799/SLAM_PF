@@ -1,0 +1,37 @@
+;;;
+;;; File: /home/jnitsch/ros_indigo/ar_ws/src/advanced_robotics/asreal_oprs/data/move.opf
+;;; $Id$
+;;; Date: Tue May 26 17:26:28 2015
+;;; Host: thinkpad
+;;; OP Editor Version: 1.1b10
+;;; Compiled on thinkpad (Die Mai 26 08:28:34 CEST 2015)
+;;; OP File Format: 2
+;;;
+(2 
+(
+)
+(move_to_table_op (
+(INVOCATION INVOCATION (! (position $x)) 10 50 1 80 0 )
+(CONTEXT CONTEXT () 10 250 1 60 0 )
+(CALL CALL_NODE (Move $x) 10 150 1 60 0 )
+(SETTING SETTING  10 350 1 60 0 )
+(EFFECTS EFFECTS ((position $x)) 10 450 1 60 0 )
+(DOCUMENTATION DOCUMENTATION  10 650 1 60 0 )
+(PROPERTIES PROPERTIES  10 550 1 60 0 )
+) (
+(START START 0 0 310 10)
+) (
+) )
+(move_to_table_op_act (
+(INVOCATION INVOCATION (! (position $x)) 10 50 1 80 0 )
+(CONTEXT CONTEXT () 10 250 1 60 0 )
+(CALL CALL_NODE  10 150 1 60 0 )
+(SETTING SETTING  10 350 1 60 0 )
+(EFFECTS EFFECTS ((position $x)) 10 450 1 60 0 )
+(ACTION ACTION (Move $x) 310 50 1 60 0 )
+(DOCUMENTATION DOCUMENTATION  10 650 1 60 0 )
+(PROPERTIES PROPERTIES  10 550 1 60 0 )
+) (
+) (
+) )
+)

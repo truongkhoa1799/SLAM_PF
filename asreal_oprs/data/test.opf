@@ -1,0 +1,25 @@
+;;;
+;;; File: /home/jnitsch/ros_indigo/ar_ws/src/advanced_robotics/asreal_oprs/data/test.opf
+;;; $Id$
+;;; Date: Wed May 27 16:34:21 2015
+;;; Host: thinkpad
+;;; OP Editor Version: 1.1b10
+;;; Compiled on thinkpad (Die Mai 26 08:28:34 CEST 2015)
+;;; OP File Format: 2
+;;;
+(2 
+(
+)
+(test_evel_pred (
+(INVOCATION INVOCATION (! (position $x)) 10 50 1 80 1 )
+(CONTEXT CONTEXT ((see $x)) 10 250 1 60 0 )
+(CALL CALL_NODE  10 150 1 60 0 )
+(SETTING SETTING  10 350 1 60 0 )
+(EFFECTS EFFECTS ((position $x)) 10 450 1 60 0 )
+(ACTION ACTION (Move $x) 310 50 1 60 0 )
+(DOCUMENTATION DOCUMENTATION  10 650 1 60 0 )
+(PROPERTIES PROPERTIES  10 550 1 60 0 )
+) (
+) (
+) )
+)

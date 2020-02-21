@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/khoa1799/catkin_ws/devel/include/**",
+                "/usr/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/khoa1799/catkin_ws/src/SLAM/include/**",
+                "/home/khoa1799/catkin_ws/src/SLAM/stage_ros/include/**",
+                "/home/khoa1799/catkin_ws/src/SLAM/stage/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="rviz" type="rviz" respawn="false" name="rviz" output="log" args="-d $(find g2o_based_mapping)/launch/rviz_config.rviz">
+  </node>
+</launch>

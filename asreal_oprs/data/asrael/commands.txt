@@ -1,0 +1,41 @@
+COMMAND name=LoadLevel, sensing=FALSE
+ 1.paramter=levelName
+ 
+COMMAND name=ResetLevel, sensing=FALSE
+
+COMMAND name=Hot, sensing=TRUE
+ 1.paramter=itemName
+ 
+COMMAND name=IsAt, sensing=TRUE
+ 1.paramter=upperItemName
+ 2.paramter=lowerItemName
+ 
+COMMAND name=LoadState, sensing=FALSE
+ 1.paramter=fileName
+ 
+COMMAND name=SaveState, sensing=FALSE
+ 1.paramter=fileName
+ 
+COMMAND name=Put, sensing=FALSE
+ 1.paramter=itemName
+ 
+COMMAND name=Take, sensing=FALSE
+ 1.paramter=itemName
+ 
+COMMAND name=Move, sensing=FALSE
+ 1.paramter=itemName
+ 
+COMMAND name=See, sensing=TRUE
+ 1.paramter=itemName
+ 
+COMMAND name=Open, sensing=FALSE
+ 1.paramter=itemName
+ 
+COMMAND name=Close, sensing=FALSE
+ 1.paramter=itemName
+ 
+COMMAND name=TurnOn, sensing=FALSE
+ 1.paramter=itemName
+ 
+COMMAND name=TurnOff, sensing=FALSE
+ 1.paramter=itemName

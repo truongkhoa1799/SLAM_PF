@@ -1,0 +1,78 @@
+;;;
+;;; File: /home/jnitsch/ros_indigo/ar_ws/src/advanced_robotics/asreal_oprs/data/test_move_bowl.opf
+;;; $Id$
+;;; Date: Thu May 28 15:42:14 2015
+;;; Host: thinkpad
+;;; OP Editor Version: 1.1b10
+;;; Compiled on thinkpad (Die Mai 26 08:28:34 CEST 2015)
+;;; OP File Format: 2
+;;;
+(2 
+(
+)
+(move (
+(INVOCATION INVOCATION (! (position $x)) 10 50 1 80 0 )
+(CONTEXT CONTEXT ((see $x)) 10 250 1 60 0 )
+(CALL CALL_NODE  10 150 1 60 0 )
+(SETTING SETTING  10 350 1 60 0 )
+(EFFECTS EFFECTS ((~> (position $z))
+ (=> (position $x))) 10 450 1 60 0 )
+(ACTION ACTION (Move $x) 310 50 1 60 0 )
+(DOCUMENTATION DOCUMENTATION  10 650 1 60 0 )
+(PROPERTIES PROPERTIES  10 550 1 60 0 )
+) (
+) (
+) )
+(put (
+(INVOCATION INVOCATION (! (~ (hold $x))) 10 50 1 80 0 )
+(CONTEXT CONTEXT ((hold $y)) 10 250 1 60 0 )
+(CALL CALL_NODE  10 150 1 60 0 )
+(SETTING SETTING  10 350 1 60 0 )
+(EFFECTS EFFECTS ((~> (hold $y))) 10 450 1 60 0 )
+(ACTION ACTION (Put $x) 310 50 1 60 0 )
+(DOCUMENTATION DOCUMENTATION  10 650 1 60 0 )
+(PROPERTIES PROPERTIES  10 550 1 60 0 )
+) (
+) (
+) )
+(take (
+(INVOCATION INVOCATION (! (hold $x)) 10 50 1 80 0 )
+(CONTEXT CONTEXT ((position $x)) 10 251 1 60 0 )
+(CALL CALL_NODE  10 150 1 60 0 )
+(SETTING SETTING  10 350 1 60 0 )
+(EFFECTS EFFECTS ((=> (hold $x))) 10 450 1 60 0 )
+(ACTION ACTION (Take $x) 310 50 1 60 0 )
+(DOCUMENTATION DOCUMENTATION  10 650 1 60 0 )
+(PROPERTIES PROPERTIES  10 550 1 60 0 )
+) (
+) (
+) )
+(transport (
+(INVOCATION INVOCATION (! (is_at $x $y)) 10 50 1 80 0 )
+(CONTEXT CONTEXT () 10 250 1 60 0 )
+(CALL CALL_NODE  10 150 1 60 0 )
+(SETTING SETTING  10 350 1 60 0 )
+(EFFECTS EFFECTS () 10 450 1 60 0 )
+(DOCUMENTATION DOCUMENTATION  10 650 1 60 0 )
+(PROPERTIES PROPERTIES  10 550 1 60 0 )
+) (
+(START START 0 0 310 10)
+(PROCESS N1 0 0 330 158)
+(PROCESS N2 0 0 345 283)
+(PROCESS N3 0 0 358 418)
+(PROCESS N4 0 0 402 567)
+) (
+(GOAL START NN N1
+(! (position $x))
+()  0 0 40 0)
+(GOAL N1 NN N2
+(! (hold $x))
+()  0 0 40 0)
+(GOAL N2 NN N3
+(! (position $y))
+()  -23 -25 40 0)
+(GOAL N3 NN N4
+(! (~ (hold $x)))
+((401 549) )  17 -34 40 0)
+) )
+)

@@ -1,0 +1,224 @@
+;;;#############################################################################
+;;;#############################################################################
+;;;#############################################################################
+;;;declare all prediactes and symbols you need HERE
+declare predicate position
+declare predicate hold
+
+
+;;;#############################################################################
+;;;#############################################################################
+;;;#############################################################################
+;;; Actions wich Asreal can perform
+declare op_predicate Move ;;;(arg Goal)
+
+;;;#############################################################################
+;;;#############################################################################
+;;;#############################################################################
+;;; Evaluable predicates from Asreal's world
+;;; see hot is_at
+;;;declare op_predicate see
+
+;;;#############################################################################
+;;;#############################################################################
+;;;#############################################################################
+;;;Items in Asrael's world
+;;;#############################################################################
+;;;kitchenware
+declare symbol Table
+
+declare symbol Fridge
+declare symbol FridgeShelf1
+declare symbol FridgeShelf2
+declare symbol FridgeDoor 
+
+declare symbol Microwave
+declare symbol MicrowaveDoor
+declare symbol MicrowaveBase
+
+declare symbol Stove
+
+declare symbol OvenDoor 
+declare symbol OvenGrill
+
+declare symbol Dishwasher
+declare symbol DishwasherDoor
+declare symbol DishwasherBase
+
+;;;#############################################################################
+;;;cutlery
+declare symbol Knife1 
+declare symbol Knife2 
+declare symbol Knife3 
+declare symbol Knife4
+declare symbol Spoon1 
+declare symbol Spoon2 
+declare symbol Spoon3 
+declare symbol Spoon4
+declare symbol Fork1
+declare symbol Fork2
+declare symbol Fork3 
+declare symbol Fork4
+
+;;;#############################################################################
+;;;food
+declare symbol Ham1 
+declare symbol Ham2 
+declare symbol Ham3 
+declare symbol Ham4
+declare symbol Cheese1 
+declare symbol Cheese2 
+declare symbol Cheese3 
+declare symbol Cheese4
+declare symbol Bread1 
+declare symbol Bread2 
+declare symbol Bread3 
+declare symbol Bread4 
+declare symbol Bread5 
+declare symbol Bread6 
+declare symbol Bread7 
+declare symbol Bread8
+declare symbol Tomatoes1 
+declare symbol Tomatoes2 
+declare symbol Tomatoes3 
+declare symbol Tomatoes4 
+
+;;;#############################################################################
+;;;crockery
+declare symbol GreenPlate1 
+declare symbol GreenPlate2 
+declare symbol GreenPlate3  
+declare symbol GreenPlate4
+declare symbol BrownPlate1
+declare symbol BrownPlate2 
+declare symbol BrownPlate3
+declare symbol BrownPlate4
+declare symbol BeigePlate1
+declare symbol BeigePlate2 
+declare symbol BeigePlate3 
+declare symbol BeigePlate4
+
+;;;#############################################################################
+;;; utils
+declare symbol Placemat1
+declare symbol Placemat2
+declare symbol Placemat3
+declare symbol Placemat4
+declare symbol WoodenBowl
+
+;;;#############################################################################
+;;; cookware
+declare symbol Pan
+
+declare symbol SmallPot 
+declare symbol LargePot
+
+;;;#############################################################################
+;;; kitchen furniture
+declare symbol Table
+
+declare symbol TallCabinet1
+declare symbol TC1_Shelf1
+declare symbol TC1_Shelf2
+declare symbol TC1_Shelf3
+declare symbol TC1_Shelf4
+declare symbol TC1_Shelf5
+declare symbol TC1_Shelf6
+
+declare symbol UpperCabinet1
+declare symbol UC1_Shelf1
+declare symbol UC1_Shelf2
+
+declare symbol UpperCabinet2
+declare symbol UC2_Door1
+declare symbol UC2_Shelf1
+declare symbol UC2_Shelf2
+
+declare symbol UpperCabinet3
+declare symbol UC3_Door1
+declare symbol UC3_Door2
+declare symbol UC3_Shelf1
+declare symbol UC3_Shelf2
+  
+declare symbol UpperCabinet4
+declare symbol UC4_Door1
+declare symbol UC4_Shelf1
+declare symbol UC4_Shelf2
+declare symbol UC4_Shelf3
+declare symbol UC4_Shelf4
+
+declare symbol UpperCabinet5
+declare symbol UC5_Shelf1
+declare symbol UC5_Shelf2
+declare symbol UC5_Shelf3
+declare symbol UC5_Shelf4
+
+declare symbol UpperCabinet6
+declare symbol UC6_Door1
+declare symbol UC6_Door2
+declare symbol UC6_Shelf1
+declare symbol UC6_Shelf2
+declare symbol UC6_Shelf3
+declare symbol UC6_Shelf4
+
+declare symbol BaseCabinet2
+declare symbol BC2_Drawer1
+declare symbol BC2_Drawer2
+
+declare symbol BaseCabinet3
+declare symbol BC3_Shelf1
+declare symbol BC3_Shelf2
+declare symbol BC3_Shelf3
+declare symbol BC3_Shelf4
+
+declare symbol BaseCabinet4
+declare symbol BC4_Door1
+declare symbol BC4_Shelf1
+declare symbol BC4_Shelf2
+declare symbol BC4_Shelf3
+declare symbol BC4_Shelf4
+
+declare symbol BaseCabinet5
+declare symbol BC5_Door1
+declare symbol BC5_Door2
+declare symbol BC5_Shelf1
+declare symbol BC5_Shelf2
+declare symbol BC5_Shelf3
+declare symbol BC5_Shelf4
+  
+declare symbol BaseCabinet6
+declare symbol BC6_Drawer1
+declare symbol BC6_Drawer2
+declare symbol BC6_Drawer3
+declare symbol BC6_Drawer4
+  
+declare symbol BaseCabinet7
+declare symbol BC7_Door1
+declare symbol BC7_Door2
+declare symbol BC7_Drawer1
+declare symbol BC7_Shelf1
+declare symbol BC7_Shelf2
+declare symbol BC7_Shelf3
+
+declare symbol BaseCabinet8
+declare symbol BC8_Drawer1
+declare symbol BC8_Drawer2
+declare symbol BC8_Drawer3
+declare symbol BC8_Drawer4
+  
+declare symbol BaseCabinet9
+declare symbol BC9_Drawer1
+declare symbol BC9_Drawer2
+declare symbol BC9_Drawer3
+declare symbol BC9_Drawer4
+declare symbol BC9_Drawer5
+  
+declare symbol BaseCabinet10
+declare symbol BC10_Drawer1
+declare symbol BC10_Drawer2
+declare symbol BC10_Drawer3
+declare symbol BC10_Drawer4
+declare symbol BC10_Drawer5
+
+
+

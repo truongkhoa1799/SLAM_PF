@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="asreal_oprs" type="asreal_interface_test_node" respawn="false" name="asreal_interface_test_node" output="screen">
+  </node>
+</launch> 

@@ -1,0 +1,6 @@
+string command_name
+string parameter_1
+string parameter_2
+---
+bool successful_execution
+string asrael_response

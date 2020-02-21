@@ -1,0 +1,7 @@
+<library path="lib/liblpn_global_path_planner">
+  <class name="global_path_planner/LPN" type="LPN" base_class_type="nav_core::BaseGlobalPlanner">
+    <description>
+      Implementation of the LPN global path planner
+    </description>
+  </class>
+</library>

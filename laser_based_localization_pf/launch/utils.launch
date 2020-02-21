@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="stage_utils" type="fiducial_server" respawn="false" output="screen" name="stage_utils" args="$(find stage_ros)/world/fiducials.csv">
+  </node>
+  <node pkg="stage_utils" type="keyboard" respawn="false" output="screen" name="keyboard">
+  </node>
+
+</launch>

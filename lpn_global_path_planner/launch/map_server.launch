@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="map_server" type="map_server" respawn="false" name="map_server" output="log" args="$(find lpn_global_path_planner)/world/PZ205.yaml">
+  </node>
+</launch>

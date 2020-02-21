@@ -1,0 +1,12 @@
+;;;#############################################################################
+;;;#############################################################################
+;;;#############################################################################
+;;;declare all prediactes and symbols you need HERE
+declare predicate position
+declare predicate heading
+
+declare symbol NORTH
+declare symbol SOUTH
+declare symbol WEST
+declare symbol EAST
+

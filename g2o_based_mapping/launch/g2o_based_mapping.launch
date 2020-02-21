@@ -1,0 +1,8 @@
+<launch>
+  <!-- all nodes should use simulated time from stage -->
+  <param name="use_sim_time" value="true" />
+  <include file="$(find g2o_based_mapping)/launch/map_server.launch" />
+  <include file="$(find g2o_based_mapping)/launch/utils.launch" />
+  <include file="$(find g2o_based_mapping)/launch/rviz.launch" />
+</launch>
+

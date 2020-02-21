@@ -1,0 +1,7 @@
+<launch>
+  <!-- all nodes should use simulated time from stage -->
+  <param name="use_sim_time" value="true" />
+  <include file="$(find laser_based_localization_pf)/launch/map_server.launch" />
+  <include file="$(find laser_based_localization_pf)/launch/utils.launch" />
+  <include file="$(find laser_based_localization_pf)/launch/rviz.launch" /> 
+</launch>

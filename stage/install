@@ -1,0 +1,6 @@
+#! bin/bash
+export STG=/opt/ros/melodic
+cmake -DCMAKE_INSTALL_PREFIX=$STG Stage
+make
+make install
+export LD_LIBRARY_PATH=$STG/lib

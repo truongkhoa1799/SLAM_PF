@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="map_server" type="map_server" respawn="false" name="map_server" output="log" args="$(find turtlebot_adaption)/world/lab10.yaml">
+  </node>
+</launch>

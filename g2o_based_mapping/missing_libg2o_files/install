@@ -1,0 +1,7 @@
+#! bin/bash
+apt-get install ros-melodic-libg2o
+apt-get install libsuitesparse-dev 
+cp $(pwd)/FindCSparse.cmake  /opt/ros/melodic/share/cmake_modules/cmake/Modules/
+cp -r $(pwd)/cmake/ /opt/ros/melodic/share/libg2o/
+chmod -R 777 /opt/ros/melodic/share/libg2o/cmake/
+chmod -R 777 /opt/ros/melodic/share/cmake_modules/cmake/Modules/

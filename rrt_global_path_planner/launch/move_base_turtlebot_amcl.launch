@@ -1,0 +1,22 @@
+<launch>
+
+  <remap from="cmd_vel" to="cmd_vel_mux/input/teleop" />
+
+
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="$(find rrt_global_path_planner)/config/costmap_common_turtlebot_amcl.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find rrt_global_path_planner)/config/costmap_common_turtlebot_amcl.yaml" command="load" ns="local_costmap" />
+    
+    <rosparam file="$(find rrt_global_path_planner)/config/costmap_local_turtlebot.yaml" command="load" ns="local_costmap" />
+    
+    <rosparam file="$(find rrt_global_path_planner)/config/costmap_global_turtlebot.yaml" command="load" ns="global_costmap" />
+    
+    
+    <rosparam file="$(find rrt_global_path_planner)/config/base_local_planner.yaml" command="load"/>
+    <param name="base_global_planner" value="global_path_planner/RRT"/>
+    <param name="controller_frequency" value="10"/>
+  </node>
+  
+  
+  
+</launch>

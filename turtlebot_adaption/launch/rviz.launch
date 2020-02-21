@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="rviz" type="rviz" respawn="false" name="rviz" output="log" args="-d $(find turtlebot_adaption)/launch/rviz_config.rviz">
+  </node>
+</launch>
+
